@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="foaf-as-html.xsl" type="text/xsl"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:bio="http://purl.org/vocab/bio/0.1/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<foaf:PersonalProfileDocument rdf:about="http://panagiotis.papadopoulos.com/panospap.rdf">
+	<foaf:maker rdf:resource="#PanagiotisPapadopoulos"/>
+	<foaf:primaryTopic rdf:resource="PanagiotisPapadopoulos"/>
+</foaf:PersonalProfileDocument>
+
+<!-- Personal info -->
+<foaf:Person rdf:ID="PanagiotisPapadopoulos">
+	<foaf:name>Panagiotis Papadopoulos</foaf:name>
+	<foaf:firstName>Panagiotis</foaf:firstName>
+	<foaf:lastName>Papadopoulos</foaf:lastName>
+	<foaf:gender xml:lang="en">male</foaf:gender>
+	<foaf:gender xml:lang="el">άνδρας</foaf:gender>
+	<foaf:dateOfBirth>20-08-1998</foaf:dateOfBirth>
+	<foaf:mailbox>panospap.it@gmail.com</foaf:mailbox>
+<foaf:homepage>
+    <foaf:document rdf:about="https://users.iee.ihu.gr/~it164720">
+    	<dc:title xml:lang="en">Homepage of Papadopoulos Panagiotis</dc:title>
+    	<dc:title xml:lang="el">Κεντρική σελίδα Παναγιώτη Παπαδόπουλου</dc:title>
+    	<foaf:maker rdf:resource="#MartinFilliau"/>
+    </foaf:document>
+</foaf:homepage>
+<foaf:schoolHomepage rdf:resource="https://iee.ihu.gr" dc:title="International Hellenic University"/>
+
+<!-- Interests -->
+<foaf:interest rdf:resource="http://dbpedia.org/resource/HipHop" dc:title="Hip_Hop"/>
+<foaf:interest rdf:resource="http://dbpedia.org/resource/Linked_Data" dc:title="Linked Data"/>
+<foaf:interest rdf:resource="http://dbpedia.org/resource/Movies" dc:title="Movies"/>
+<foaf:interest rdf:resource="http://dbpedia.org/resource/TV Series" dc:title="TV Series"/>
+<foaf:interest rdf:resource="http://dbpedia.org/resource/RDF" dc:title="RDF"/>
+<foaf:interest rdf:resource="http://dbpedia.org/resource/Python" dc:title="Python"/>
+<foaf:interest rdf:resource="http://dbpedia.org/resource/Software" dc:title="Software"/>
+<foaf:interest rdf:resource="http://dbpedia.org/resource/Books" dc:title="Books"/>
+<foaf:interest rdf:resource="http://dbpedia.org/resource/Data" dc:title="Data"/>
+<foaf:interest rdf:resource="http://dbpedia.org/resource/Science" dc:title="Science"/>
+
+<bio:olb>Panagiotis Papadopoulos, Python Developer</bio:olb>
+<bio:keywords xml:lang="en">Python, developer, development, programming, language, code, Django, web, hacking</bio:keywords>
+
+<!-- friends (not real person) -->
+<foaf:knows>
+	<foaf:Person>
+		<foaf:name>Thodoris Andreou</foaf:name>
+        <foaf:mailbox>tandreou.abc@gmail.gr</foaf:mailbox>
+        <foaf:gender>male</foaf:gender>
+        <foaf:homepage rdf:resource="http://tan.com/"/>
+	</foaf:Person>
+</foaf:knows>
+
+<foaf:knows>
+	<foaf:Person>
+		<foaf:name>Manolis Papapaulou</foaf:name>
+        <foaf:mailbox>manpap.it@gmail.gr</foaf:mailbox>
+        <foaf:gender>male</foaf:gender>
+        <foaf:homepage rdf:resource="http://manoliospapv.com/"/>
+	</foaf:Person>
+</foaf:knows>
+
+<!-- accounts -->
+
+<!-- twitter -->
+<foaf:holdsAccount>
+	<foaf:onlineAccount rdf:about="https://twitter.com/_panospap">
+	<foaf:accountName>_panospap</foaf:accountName>
+		<foaf:accountServiceHomepage rdf:resource="https://twitter.com/"/>
+	</foaf:onlineAccount>
+</foaf:holdsAccount>
+<!-- youtube -->
+<foaf:holdsAccount>
+	<foaf:onlineAccount rdf:about="https://www.youtube.com/channel/UCwnRTkpoPJCK1N8MkpMbtdQ/featured?view_as=subscriber">
+		<foaf:accountName>Panagiotis Papadopoulos</foaf:accountName>
+		<foaf:accountServiceHomepage rdf:resource="https://www.youtube.com/"/>
+	</foaf:onlineAccount>
+</foaf:holdsAccount>
+<!-- facebook -->
+<foaf:holdsAccount>
+	<foaf:onlineAccount rdf:about="https://www.facebook.com/panos.papadopoylosCS/">
+		<foaf:accountName>Panagiotis Papadopoulos</foaf:accountName>
+		<foaf:accountServiceHomepage rdf:resource="https://www.facebook.com/"/>
+	</foaf:onlineAccount>
+</foaf:holdsAccount>
+<!-- linked in -->
+<foaf:holdsAccount>
+	<foaf:onlineAccount rdf:about="https://www.linkedin.com/in/panagiotis-papadopoulos-a01731130/">
+		<foaf:accountName>Panagiotis Papadopoulos</foaf:accountName>
+		<foaf:accountServiceHomepage rdf:resource="https://www.linkedin.com/"/>
+	</foaf:onlineAccount>
+</foaf:holdsAccount>
+<!-- github -->
+<foaf:holdsAccount>
+	<foaf:onlineAccount rdf:about="https://github.com/PanosPap10">
+		<foaf:accountName>PanosPap10</foaf:accountName>
+		<foaf:accountServiceHomepage rdf:resource="https://github.com/"/>
+	</foaf:onlineAccount>
+</foaf:holdsAccount>
+
+</foaf:Person>
+</rdf:RDF>
