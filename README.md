@@ -1,2 +1,2 @@
-# ihu-SemanticWeb
-XML,RDF,SPARQL Exercises for Semantic Web course at university
+# International Hellenic University - Thessaloniki - Greece -Semantic Web Course
+XML, RDF, SPARQL exercises for Semantic Web course at university
